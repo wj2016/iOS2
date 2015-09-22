@@ -12,6 +12,10 @@
 		95BBA4361BB1E43B0086F1D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95BBA4351BB1E43B0086F1D2 /* Images.xcassets */; };
 		95BBA4391BB1E43B0086F1D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95BBA4371BB1E43B0086F1D2 /* LaunchScreen.xib */; };
 		95BBA4451BB1E43B0086F1D2 /* DemoSocialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BBA4441BB1E43B0086F1D2 /* DemoSocialTests.m */; };
+		95BBA4511BB1E49A0086F1D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BBA44F1BB1E49A0086F1D2 /* ViewController.m */; };
+		95BBA4521BB1E49A0086F1D2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95BBA4501BB1E49A0086F1D2 /* ViewController.xib */; };
+		95BBA4541BB1E61E0086F1D2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BBA4531BB1E61E0086F1D2 /* MobileCoreServices.framework */; };
+		95BBA4561BB1E6240086F1D2 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BBA4551BB1E6240086F1D2 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,11 @@
 		95BBA43E1BB1E43B0086F1D2 /* DemoSocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoSocialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95BBA4431BB1E43B0086F1D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95BBA4441BB1E43B0086F1D2 /* DemoSocialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoSocialTests.m; sourceTree = "<group>"; };
+		95BBA44E1BB1E49A0086F1D2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		95BBA44F1BB1E49A0086F1D2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95BBA4501BB1E49A0086F1D2 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		95BBA4531BB1E61E0086F1D2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		95BBA4551BB1E6240086F1D2 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95BBA4561BB1E6240086F1D2 /* Social.framework in Frameworks */,
+				95BBA4541BB1E61E0086F1D2 /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +69,8 @@
 		95BBA4221BB1E43B0086F1D2 = {
 			isa = PBXGroup;
 			children = (
+				95BBA4551BB1E6240086F1D2 /* Social.framework */,
+				95BBA4531BB1E61E0086F1D2 /* MobileCoreServices.framework */,
 				95BBA42D1BB1E43B0086F1D2 /* DemoSocial */,
 				95BBA4411BB1E43B0086F1D2 /* DemoSocialTests */,
 				95BBA42C1BB1E43B0086F1D2 /* Products */,
@@ -79,8 +92,10 @@
 				95BBA4321BB1E43B0086F1D2 /* AppDelegate.h */,
 				95BBA4331BB1E43B0086F1D2 /* AppDelegate.m */,
 				95BBA4351BB1E43B0086F1D2 /* Images.xcassets */,
-				95BBA4371BB1E43B0086F1D2 /* LaunchScreen.xib */,
 				95BBA42E1BB1E43B0086F1D2 /* Supporting Files */,
+				95BBA44E1BB1E49A0086F1D2 /* ViewController.h */,
+				95BBA44F1BB1E49A0086F1D2 /* ViewController.m */,
+				95BBA4501BB1E49A0086F1D2 /* ViewController.xib */,
 			);
 			path = DemoSocial;
 			sourceTree = "<group>";
@@ -88,6 +103,7 @@
 		95BBA42E1BB1E43B0086F1D2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				95BBA4371BB1E43B0086F1D2 /* LaunchScreen.xib */,
 				95BBA42F1BB1E43B0086F1D2 /* Info.plist */,
 				95BBA4301BB1E43B0086F1D2 /* main.m */,
 			);
@@ -192,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95BBA4391BB1E43B0086F1D2 /* LaunchScreen.xib in Resources */,
+				95BBA4521BB1E49A0086F1D2 /* ViewController.xib in Resources */,
 				95BBA4361BB1E43B0086F1D2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95BBA4511BB1E49A0086F1D2 /* ViewController.m in Sources */,
 				95BBA4341BB1E43B0086F1D2 /* AppDelegate.m in Sources */,
 				95BBA4311BB1E43B0086F1D2 /* main.m in Sources */,
 			);
