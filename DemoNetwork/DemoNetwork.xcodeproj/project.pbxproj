@@ -12,6 +12,9 @@
 		95BBA46B1BB32AFC0086F1D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95BBA46A1BB32AFC0086F1D2 /* Images.xcassets */; };
 		95BBA46E1BB32AFC0086F1D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95BBA46C1BB32AFC0086F1D2 /* LaunchScreen.xib */; };
 		95BBA47A1BB32AFC0086F1D2 /* DemoNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BBA4791BB32AFC0086F1D2 /* DemoNetworkTests.m */; };
+		95BBA4851BB32B9C0086F1D2 /* PersonsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BBA4841BB32B9C0086F1D2 /* PersonsTableViewController.m */; };
+		95BBA4891BB3364A0086F1D2 /* AddPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BBA4871BB3364A0086F1D2 /* AddPersonViewController.m */; };
+		95BBA48A1BB3364A0086F1D2 /* AddPersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95BBA4881BB3364A0086F1D2 /* AddPersonViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,11 @@
 		95BBA4731BB32AFC0086F1D2 /* DemoNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95BBA4781BB32AFC0086F1D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95BBA4791BB32AFC0086F1D2 /* DemoNetworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoNetworkTests.m; sourceTree = "<group>"; };
+		95BBA4831BB32B9C0086F1D2 /* PersonsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonsTableViewController.h; sourceTree = "<group>"; };
+		95BBA4841BB32B9C0086F1D2 /* PersonsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonsTableViewController.m; sourceTree = "<group>"; };
+		95BBA4861BB3364A0086F1D2 /* AddPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPersonViewController.h; sourceTree = "<group>"; };
+		95BBA4871BB3364A0086F1D2 /* AddPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPersonViewController.m; sourceTree = "<group>"; };
+		95BBA4881BB3364A0086F1D2 /* AddPersonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddPersonViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,11 @@
 				95BBA4681BB32AFC0086F1D2 /* AppDelegate.m */,
 				95BBA46A1BB32AFC0086F1D2 /* Images.xcassets */,
 				95BBA4631BB32AFC0086F1D2 /* Supporting Files */,
+				95BBA4831BB32B9C0086F1D2 /* PersonsTableViewController.h */,
+				95BBA4841BB32B9C0086F1D2 /* PersonsTableViewController.m */,
+				95BBA4861BB3364A0086F1D2 /* AddPersonViewController.h */,
+				95BBA4871BB3364A0086F1D2 /* AddPersonViewController.m */,
+				95BBA4881BB3364A0086F1D2 /* AddPersonViewController.xib */,
 			);
 			path = DemoNetwork;
 			sourceTree = "<group>";
@@ -191,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95BBA48A1BB3364A0086F1D2 /* AddPersonViewController.xib in Resources */,
 				95BBA46E1BB32AFC0086F1D2 /* LaunchScreen.xib in Resources */,
 				95BBA46B1BB32AFC0086F1D2 /* Images.xcassets in Resources */,
 			);
@@ -212,6 +226,8 @@
 			files = (
 				95BBA4691BB32AFC0086F1D2 /* AppDelegate.m in Sources */,
 				95BBA4661BB32AFC0086F1D2 /* main.m in Sources */,
+				95BBA4851BB32B9C0086F1D2 /* PersonsTableViewController.m in Sources */,
+				95BBA4891BB3364A0086F1D2 /* AddPersonViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
