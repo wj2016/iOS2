@@ -59,6 +59,7 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
+#pragma mark 发布到社交媒体
 // 发布消息到社交媒体去
 - (IBAction)postMessage:(UIButton *)sender
 {
