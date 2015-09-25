@@ -15,6 +15,8 @@
 		95BBA4851BB32B9C0086F1D2 /* PersonsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BBA4841BB32B9C0086F1D2 /* PersonsTableViewController.m */; };
 		95BBA4891BB3364A0086F1D2 /* AddPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BBA4871BB3364A0086F1D2 /* AddPersonViewController.m */; };
 		95BBA48A1BB3364A0086F1D2 /* AddPersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95BBA4881BB3364A0086F1D2 /* AddPersonViewController.xib */; };
+		95BBA48E1BB5CF1B0086F1D2 /* ResolveHostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BBA48C1BB5CF1B0086F1D2 /* ResolveHostViewController.m */; };
+		95BBA48F1BB5CF1B0086F1D2 /* ResolveHostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95BBA48D1BB5CF1B0086F1D2 /* ResolveHostViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,9 @@
 		95BBA4861BB3364A0086F1D2 /* AddPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPersonViewController.h; sourceTree = "<group>"; };
 		95BBA4871BB3364A0086F1D2 /* AddPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPersonViewController.m; sourceTree = "<group>"; };
 		95BBA4881BB3364A0086F1D2 /* AddPersonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddPersonViewController.xib; sourceTree = "<group>"; };
+		95BBA48B1BB5CF1B0086F1D2 /* ResolveHostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResolveHostViewController.h; sourceTree = "<group>"; };
+		95BBA48C1BB5CF1B0086F1D2 /* ResolveHostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResolveHostViewController.m; sourceTree = "<group>"; };
+		95BBA48D1BB5CF1B0086F1D2 /* ResolveHostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResolveHostViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +98,9 @@
 				95BBA4861BB3364A0086F1D2 /* AddPersonViewController.h */,
 				95BBA4871BB3364A0086F1D2 /* AddPersonViewController.m */,
 				95BBA4881BB3364A0086F1D2 /* AddPersonViewController.xib */,
+				95BBA48B1BB5CF1B0086F1D2 /* ResolveHostViewController.h */,
+				95BBA48C1BB5CF1B0086F1D2 /* ResolveHostViewController.m */,
+				95BBA48D1BB5CF1B0086F1D2 /* ResolveHostViewController.xib */,
 			);
 			path = DemoNetwork;
 			sourceTree = "<group>";
@@ -207,6 +215,7 @@
 				95BBA48A1BB3364A0086F1D2 /* AddPersonViewController.xib in Resources */,
 				95BBA46E1BB32AFC0086F1D2 /* LaunchScreen.xib in Resources */,
 				95BBA46B1BB32AFC0086F1D2 /* Images.xcassets in Resources */,
+				95BBA48F1BB5CF1B0086F1D2 /* ResolveHostViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +235,7 @@
 			files = (
 				95BBA4691BB32AFC0086F1D2 /* AppDelegate.m in Sources */,
 				95BBA4661BB32AFC0086F1D2 /* main.m in Sources */,
+				95BBA48E1BB5CF1B0086F1D2 /* ResolveHostViewController.m in Sources */,
 				95BBA4851BB32B9C0086F1D2 /* PersonsTableViewController.m in Sources */,
 				95BBA4891BB3364A0086F1D2 /* AddPersonViewController.m in Sources */,
 			);
