@@ -1,3 +1,8 @@
+/*
+ * 6.1 解析域名到IP地址
+ * 不需要本地任何服务器，就仅仅演示了如何使用基本的CFNetwork的API
+ * 以及一些bridge转换的过程
+ */
 #import "ResolveHostViewController.h"
 
 #import <netinet/in.h>
