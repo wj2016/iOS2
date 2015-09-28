@@ -15,6 +15,8 @@
 		9521A6841BB9E96700F074E5 /* DemoBundleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9521A6821BB9E96700F074E5 /* DemoBundleViewController.m */; };
 		9521A6851BB9E96700F074E5 /* DemoBundleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9521A6831BB9E96700F074E5 /* DemoBundleViewController.xib */; };
 		9521A6871BB9E9E200F074E5 /* gradle_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9521A6861BB9E9E200F074E5 /* gradle_icon.png */; };
+		9521A68B1BB9EDBC00F074E5 /* DemoFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9521A6891BB9EDBC00F074E5 /* DemoFileViewController.m */; };
+		9521A68C1BB9EDBC00F074E5 /* DemoFileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9521A68A1BB9EDBC00F074E5 /* DemoFileViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,9 @@
 		9521A6821BB9E96700F074E5 /* DemoBundleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoBundleViewController.m; sourceTree = "<group>"; };
 		9521A6831BB9E96700F074E5 /* DemoBundleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoBundleViewController.xib; sourceTree = "<group>"; };
 		9521A6861BB9E9E200F074E5 /* gradle_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradle_icon.png; sourceTree = "<group>"; };
+		9521A6881BB9EDBC00F074E5 /* DemoFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoFileViewController.h; sourceTree = "<group>"; };
+		9521A6891BB9EDBC00F074E5 /* DemoFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoFileViewController.m; sourceTree = "<group>"; };
+		9521A68A1BB9EDBC00F074E5 /* DemoFileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoFileViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,9 @@
 				9521A6811BB9E96700F074E5 /* DemoBundleViewController.h */,
 				9521A6821BB9E96700F074E5 /* DemoBundleViewController.m */,
 				9521A6831BB9E96700F074E5 /* DemoBundleViewController.xib */,
+				9521A6881BB9EDBC00F074E5 /* DemoFileViewController.h */,
+				9521A6891BB9EDBC00F074E5 /* DemoFileViewController.m */,
+				9521A68A1BB9EDBC00F074E5 /* DemoFileViewController.xib */,
 				9521A6681BB9E91700F074E5 /* Images.xcassets */,
 				9521A6611BB9E91700F074E5 /* Supporting Files */,
 			);
@@ -202,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9521A68C1BB9EDBC00F074E5 /* DemoFileViewController.xib in Resources */,
 				9521A66C1BB9E91700F074E5 /* LaunchScreen.xib in Resources */,
 				9521A6871BB9E9E200F074E5 /* gradle_icon.png in Resources */,
 				9521A6851BB9E96700F074E5 /* DemoBundleViewController.xib in Resources */,
@@ -226,6 +235,7 @@
 				9521A6671BB9E91700F074E5 /* AppDelegate.m in Sources */,
 				9521A6641BB9E91700F074E5 /* main.m in Sources */,
 				9521A6841BB9E96700F074E5 /* DemoBundleViewController.m in Sources */,
+				9521A68B1BB9EDBC00F074E5 /* DemoFileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

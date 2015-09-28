@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "DemoBundleViewController.h"
+#import "DemoFileViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,7 +22,10 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     DemoBundleViewController *dbvc = [[DemoBundleViewController alloc] init];
-    self.window.rootViewController = dbvc;
+    DemoFileViewController *dfvc = [[DemoFileViewController alloc] init];
+    UITabBarController *controller = [[UITabBarController alloc] init];
+    controller.viewControllers = @[dbvc, dfvc];
+    self.window.rootViewController = controller;
     [self.window makeKeyAndVisible];
     return YES;
 }

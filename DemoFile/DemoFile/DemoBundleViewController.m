@@ -1,11 +1,21 @@
 #import "DemoBundleViewController.h"
 
 @interface DemoBundleViewController ()
+
 @property (weak, nonatomic) IBOutlet UIImageView *logoView;
 
 @end
 
 @implementation DemoBundleViewController
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        self.tabBarItem.title = @"bundle内文件";
+    }
+    return self;
+}
 
 - (void)viewDidLoad
 {
